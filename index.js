@@ -15,7 +15,7 @@
     platForm = 'Web';
   }
 
-  class HmbWebView {
+  class NeoWebView {
 
     constructor(platForm) {
       this.platForm = platForm;
@@ -168,5 +168,5 @@
 
   }
 
-  window.hmbWebView = new HmbWebView(platForm);
+  window.NeoWebView = new NeoWebView(platForm);
 })();
